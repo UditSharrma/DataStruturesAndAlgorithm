@@ -48,9 +48,7 @@ public class SinglyLinkedList {
                Node node =new Node(value,temp.next);
                temp.next=node;
                size++;
-
            }
-
     /*
     Display()--------------------------------------------------------------------->
   wrong....  while(head!=null){
@@ -80,7 +78,6 @@ public class SinglyLinkedList {
         if (head==null){
             tail=null;
         }
-
         size--;
         return value;
     }
@@ -111,8 +108,46 @@ public class SinglyLinkedList {
 
          return val;
     }
-// this delete the second last element with O(n) complexity
+    // this delete the second last element with O(n) complexity
+    public int deleteAt(int index){
+        Node prev=get(index-1);
+        int val=prev.next.value;
+        prev.next=prev.next.next;
+        return val;
+    }
 
+    // return Node of the given value
+    public Node returnNode(int value){
+
+        Node node = head;
+
+        while(node != null){
+
+            System.out.println("Checking: " + node.value);
+
+            if(node.value == value){
+                System.out.println("Found");
+                return node;
+            }
+
+            node = node.next;
+        }
+
+        return null;
+    }
+    // find index
+
+    public int findIndex(int value){
+        int index=0;
+        Node node=head;
+        while (node!=null){
+            if (node.value==value){
+                index++;
+            }
+            node=node.next;
+        }
+        return index;
+    }
 
 
 

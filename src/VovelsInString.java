@@ -12,14 +12,10 @@ public class VovelsInString {
                     ||str.charAt(i)=='e'||str.charAt(i)=='E'
                     ||str.charAt(i)=='i'||str.charAt(i)=='I'
                     ||str.charAt(i)=='o'||str.charAt(i)=='O'
-                    ||str.charAt(i)=='u'||str.charAt(i)=='U'
-            )
+                    ||str.charAt(i)=='u'||str.charAt(i)=='U') {
 
-
-            {
-                count++;
+                   count++;
             }
-
         }
         System.out.println(count);
 

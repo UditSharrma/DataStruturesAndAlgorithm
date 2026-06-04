@@ -2,8 +2,6 @@ import java.util.Scanner;
 
 public class LargestInTheArray {
     public static void main(String[] args) {
-
-
         int[] arr=new int[10];
         Scanner scanner=new Scanner(System.in);
         System.out.println("Enter the array");
@@ -20,6 +18,5 @@ public class LargestInTheArray {
             }
         }
         System.out.println("The maximum is "+max);
-
     }
 }
