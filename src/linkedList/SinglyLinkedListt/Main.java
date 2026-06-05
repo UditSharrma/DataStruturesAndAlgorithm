@@ -10,8 +10,9 @@ public class Main {
         list.insertFirst(3323);
         list.insertLast(23);
 
+
         list.display();
-        System.out.println(list.findIndex(3323));
+        System.out.println("  "+list.findIndex(7823));
 
 
 

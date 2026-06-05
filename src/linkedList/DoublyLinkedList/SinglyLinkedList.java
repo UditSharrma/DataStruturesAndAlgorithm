@@ -60,7 +60,6 @@ public class SinglyLinkedList {
 
      */
 
-
     public void display(){
         Node temp=head;
         while(temp!=null){
@@ -71,7 +70,6 @@ public class SinglyLinkedList {
         System.out.print("End");
     }
     // delete------------------------------------------>
-
     public int  DeleteFirst(){
         int value= head.value;
         head=head.next;
@@ -96,7 +94,6 @@ public class SinglyLinkedList {
         return node;
 
     }
-
     public int DeleteLast(){
         if (size<=1){
             return DeleteFirst();
@@ -115,7 +112,6 @@ public class SinglyLinkedList {
         prev.next=prev.next.next;
         return val;
     }
-
     // return Node of the given value
     public Node returnNode(int value){
 
@@ -142,27 +138,24 @@ public class SinglyLinkedList {
         Node node=head;
         while (node!=null){
             if (node.value==value){
+                return index;
+            }
+            else {
+                node = node.next;
                 index++;
             }
-            node=node.next;
         }
-        return index;
+        return -1;
     }
-
-
-
     private class Node{
         private int value;
         private Node next;
-
         private Node(int value){// head node
             this.value=value;
         }
-
         public Node(int value,Node next){
             this.value=value;
             this.next=next;
-
         }
     }
 }
