@@ -1,4 +1,4 @@
-package linkedList;
+package linkedList.SinglyLinkedListt;
 
 public class LL {
     private Node Head;
@@ -8,7 +8,6 @@ public class LL {
     public LL(){
        this.size=0;
    }
-
    public void InsertFirst(int value){
        Node node=new Node(value);
        node.next=Head;
@@ -45,10 +44,7 @@ public class LL {
 
        }
        return node;
-
    }
-
-
    public int  deleteFirst(){
         int value= Head.value;
         Head=Head.next;
@@ -63,7 +59,6 @@ public class LL {
              return;
         }
         Node secondLast=get(size-2);
-
         int value= tail.value;
         secondLast.next=tail.next;
         tail=secondLast;
@@ -92,7 +87,6 @@ public class LL {
            }
        }
        return -1;
-
    }
    private class Node{
 

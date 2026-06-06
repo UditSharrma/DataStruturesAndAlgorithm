@@ -1,8 +1,7 @@
 package linkedList;
-
 public class UpdatePriceInDoublyLinkedList {
     public static void main(String[] args) {
-        DoublyLinkedList list = new DoublyLinkedList();
+        DoublyLinkedLList list = new DoublyLinkedLList();
         list.insertFirst(100);
         list.insertFirst(300);
         list.insertFirst(400);
@@ -18,17 +17,6 @@ public class UpdatePriceInDoublyLinkedList {
     }
 }
 
-class DoublyLinkedList {
-    Node head;
-    void insertFirst(int price) {
-        Node newNode = new Node(price);
-
-        if (head == null) {
-            head = newNode;
-        }
-    }
-
-}
 class Node {
     int data_price;
     Node prev;

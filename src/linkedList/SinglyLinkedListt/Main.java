@@ -1,8 +1,8 @@
-package linkedList;
+package linkedList.SinglyLinkedListt;
 
 public class Main {
     public static void main(String[] args) {
-        SinglyLinkedList list=new SinglyLinkedList();
+        Excecution.SinglyLinkedList list=new Excecution.SinglyLinkedList();
         //2573
         list.insertFirst(4);
         list.insertFirst(5);
