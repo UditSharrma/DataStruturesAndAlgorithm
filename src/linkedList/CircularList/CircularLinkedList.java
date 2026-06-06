@@ -6,6 +6,7 @@ public class CircularLinkedList {
 
     CircularLinkedList() {
         this.size = 0;
+
     }
 
     public void Insert(int value) {

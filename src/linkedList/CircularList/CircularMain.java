@@ -11,6 +11,7 @@ public class CircularMain {
         list.Insert(93);
         list.Insert(43);
         list.Insert(32);
+
        list.deleteLast();
         list.display();
 
