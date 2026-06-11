@@ -14,6 +14,7 @@ public class CustomQueue {
 
     public boolean isFull(){
         return end==data.length;
+
     }
     public boolean isEmpty(){
         return end==0;
