@@ -3,15 +3,91 @@ package Patterns;
 import java.util.Scanner;
 
 public class Patterns {
-    static Scanner sc=new Scanner(System.in);
+    static Scanner sc = new Scanner(System.in);
+
     public static void main(String[] args) {
-        pattern11();
+        pattern15();
+    }
+    /*
+         *
+        * *
+       *   *
+      *     *
+     *       *
+      *     *
+       *   *
+        * *
+         *
+     */
+    static void pattern15() {
+        int n = sc.nextInt();
+        for (int i = 1; i <= 2 * n - 1; i++) {
+            int row=i<=n?i:2*n-i;
+            for (int j = row; j <n; j++) {
+                System.out.print(" ");
+            }
+            for (int j = 1; j <=2*row-1; j++) {
+                if (j ==1||j==2*row-1) {
+                    System.out.print("*");
+                }
+                else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+    static void pattern14(){
+        int n=sc.nextInt();
+        for (int i = n; i >0 ; i--) {
+            for (int j = i; j <n; j++) {
+                System.out.print(" ");
+            }
+            for (int j = 1; j <=2*i-1 ; j++) {
+                if (j==1||j==2*i-1||i==n){
+                    System.out.print("*");
+                }
+                else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+
+    static void pattern13(){
+        /*
+
+13.      *
+        * *
+       *   *
+      *     *
+     *********
+         */
+
+        int n=sc.nextInt();
+        for (int i=1;i<=n;i++){
+
+            for (int j =i; j<n ; j++) {
+                System.out.print(" ");
+            }
+
+            for (int j = 1; j <=2*i-1; j++) {
+
+                if (j==1||j==2*i-1||i==n){
+                    System.out.print("*");
+                }
+                else {
+                    System.out.print(" ");
+                }
+
+            }
+            System.out.println();
+        }
 
 
     }
-
-
-    static void pattern12(){
+    static void pattern121() {
         /*
          12.
      * * * * *
@@ -23,14 +99,86 @@ public class Patterns {
         * *
        * * *
       * * * *
-     * * * * *
+     * * * * *        */
+        int n = sc.nextInt();
 
+        for (int i = 0; i <2*n; i++) {
+            int star;
+            if (i<n){
+                star=n-i;
+            }
+            else{
+                star=i-n+1;
+            }
 
-                      */
-
+            for (int j = 0; j <n-star ; j++) {
+                System.out.print(" ");
+            }
+            for (int j = 0; j <star; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
         }
 
+}
 
+
+    static void pattern12() {
+        /*
+         12.
+     * * * * *
+      * * * *
+       * * *
+        * *
+         *
+         *
+        * *
+       * * *
+      * * * *
+     * * * * *        */
+
+        int n = sc.nextInt();
+        int count=0;
+        for (int i = 2 * n - 1; i >= 1; i -= 2) {
+
+            for (int j = 0; j < (2 * n - i - 1) / 2; j++) {
+                System.out.print(" ");
+            }
+            for (int j = 0; j <= i; j++) {
+                if (j % 2 != 0) {
+                    System.out.print(" *");
+                }
+            }
+            for (int j = 0; j < i; j++) {
+                if (j % 2 == 0) {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println(" ");
+            count++;
+        }
+       while (count!=0){
+           for (int i =1; i <=2 * n - 1; i += 2) {
+
+               for (int j = 0; j < (2 * n - i - 1) / 2; j++) {
+                   System.out.print(" ");
+               }
+               for (int j = 0; j <= i; j++) {
+                   if (j % 2 != 0) {
+                       System.out.print(" *");
+                   }
+               }
+               for (int j = 0; j < i; j++) {
+                   if (j % 2 == 0) {
+                       System.out.print(" ");
+                   }
+               }
+               System.out.println(" ");
+               count--;
+           }
+       }
+
+    }
 
     static void pattern11(){
         /*
@@ -42,6 +190,7 @@ public class Patterns {
                       *
 
                       */
+
         int n= sc.nextInt();
         for (int i =2*n-1; i>=1; i-=2) {
 
