@@ -6,7 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="4a02f5f4-3efb-4d4a-ac60-d3f8679dc9d5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/CircularList/CircularMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/CircularList/CircularMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Patterns/Patterns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Patterns/Patterns.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic/Consonants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/Consonants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic/DeleteSmallestArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/DeleteSmallestArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic/FindUnique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/FindUnique.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic/LargestInTheArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/LargestInTheArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic/ReverseColumn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/ReverseColumn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic/ReverseEachRow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/ReverseEachRow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic/SumOfBoundryElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/SumOfBoundryElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic/VovelsInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/VovelsInString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,46 +45,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BinarySearchRecursion.executor": "Run",
-    "Application.CircularMain.executor": "Run",
-    "Application.Consonants.executor": "Run",
-    "Application.DeleteSmallestArray.executor": "Run",
-    "Application.DoublyLinkedListMain.executor": "Run",
-    "Application.Excecution.executor": "Run",
-    "Application.Fibonacci.executor": "Run",
-    "Application.LL.executor": "Run",
-    "Application.LargestInTheArray.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Patterns.executor": "Run",
-    "Application.ReverseColumn.executor": "Run",
-    "Application.ReverseEachRow.executor": "Run",
-    "Application.SumOfBoundryElements.executor": "Run",
-    "Application.VovelsInString.executor": "Run",
-    "Application.basic.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/hp/IdeaProjects/DataStructuresAndAlgorithm/src/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BinarySearchRecursion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CircularMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Consonants.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeleteSmallestArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DoublyLinkedListMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Excecution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Fibonacci.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindUnique.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LL.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LargestInTheArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Patterns.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseColumn.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseEachRow.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumOfBoundryElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VovelsInString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.basic.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/hp/IdeaProjects/DataStructuresAndAlgorithm/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory",
-      "module"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;
     ],
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Patterns" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Patterns.Patterns" />
@@ -377,7 +387,71 @@
       <option name="project" value="LOCAL" />
       <updated>1781338299006</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="init commit">
+      <option name="closed" value="true" />
+      <created>1781431172644</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1781431172644</updated>
+    </task>
+    <task id="LOCAL-00036" summary="init commit">
+      <option name="closed" value="true" />
+      <created>1781462849459</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1781462849459</updated>
+    </task>
+    <task id="LOCAL-00037" summary="init commit">
+      <option name="closed" value="true" />
+      <created>1781462874038</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1781462874038</updated>
+    </task>
+    <task id="LOCAL-00038" summary="init commit">
+      <option name="closed" value="true" />
+      <created>1781462898580</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1781462898580</updated>
+    </task>
+    <task id="LOCAL-00039" summary="init commit">
+      <option name="closed" value="true" />
+      <created>1781462919843</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1781462919843</updated>
+    </task>
+    <task id="LOCAL-00040" summary="init commit">
+      <option name="closed" value="true" />
+      <created>1781462985847</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1781462985847</updated>
+    </task>
+    <task id="LOCAL-00041" summary="init commit">
+      <option name="closed" value="true" />
+      <created>1781463005270</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1781463005270</updated>
+    </task>
+    <task id="LOCAL-00042" summary="init commit">
+      <option name="closed" value="true" />
+      <created>1781463507376</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1781463507376</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -400,7 +474,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>5</line>
+          <line>17</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

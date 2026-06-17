@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package basic;
 
 public class ReverseColumn {
     public static void main(String[] args) {

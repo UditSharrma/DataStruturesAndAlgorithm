@@ -8,6 +8,19 @@ public class Patterns {
     public static void main(String[] args) {
         pattern15();
     }
+
+
+
+
+
+
+
+
+    static void pattern16(){
+
+        int n=sc.nextInt();
+
+    }
     /*
          *
         * *
@@ -19,6 +32,7 @@ public class Patterns {
         * *
          *
      */
+
     static void pattern15() {
         int n = sc.nextInt();
         for (int i = 1; i <= 2 * n - 1; i++) {

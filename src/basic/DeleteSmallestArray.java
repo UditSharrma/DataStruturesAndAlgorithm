@@ -1,4 +1,4 @@
-//delete the smallest element in the array
+package basic;//delete the smallest element in the array
 
 import java.util.ArrayList;
 
