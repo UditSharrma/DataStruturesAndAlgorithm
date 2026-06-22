@@ -28,6 +28,8 @@ public class Patterns {
          *
      */
 
+
+
     static void pattern15() {
         int n = sc.nextInt();
         for (int i = 1; i <= 2 * n - 1; i++) {
