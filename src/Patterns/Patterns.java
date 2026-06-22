@@ -8,13 +8,7 @@ public class Patterns {
     public static void main(String[] args) {
         pattern15();
     }
-
-
-
-
-
-
-
+    
 
     static void pattern16(){
 
@@ -22,6 +16,7 @@ public class Patterns {
 
     }
     /*
+
          *
         * *
        *   *
