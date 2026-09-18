@@ -6,21 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="4a02f5f4-3efb-4d4a-ac60-d3f8679dc9d5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Patterns/Patterns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Patterns/Patterns.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic/Consonants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/Consonants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic/DeleteSmallestArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/DeleteSmallestArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic/FindUnique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/FindUnique.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic/LargestInTheArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/LargestInTheArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic/ReverseColumn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/ReverseColumn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic/ReverseEachRow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/ReverseEachRow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic/SumOfBoundryElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/SumOfBoundryElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic/VovelsInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/VovelsInString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/MaxDepth.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="40" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,60 +28,86 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "UditSharrma"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/UditSharrma/DataStruturesAndAlgorithm.git",
+    "accountId": "dc58c1ee-70b6-4033-af3a-326c961de433"
+  }
+}]]></component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="3ELBg6NjkvAoAwGVcWGcpBsZRJx" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BinarySearchRecursion.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CircularMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Consonants.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeleteSmallestArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DoublyLinkedListMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Excecution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Fibonacci.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindUnique.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LL.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LargestInTheArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Patterns.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RecursionReverseCounting.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseColumn.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseEachRow.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumOfBoundryElements.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VovelsInString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.basic.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/hp/IdeaProjects/DataStructuresAndAlgorithm/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BinarySearchRecursion.executor": "Run",
+    "Application.CircularMain.executor": "Run",
+    "Application.Consonants.executor": "Run",
+    "Application.DeleteSmallestArray.executor": "Run",
+    "Application.DoublyLinkedListMain.executor": "Run",
+    "Application.Excecution.executor": "Run",
+    "Application.Fibonacci.executor": "Run",
+    "Application.FindUnique.executor": "Run",
+    "Application.LL.executor": "Run",
+    "Application.LargestInTheArray.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Patterns.executor": "Run",
+    "Application.RecursionReverseCounting.executor": "Run",
+    "Application.ReverseColumn.executor": "Run",
+    "Application.ReverseEachRow.executor": "Run",
+    "Application.SumOfBoundryElements.executor": "Run",
+    "Application.VovelsInString.executor": "Run",
+    "Application.basic.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/hp/IdeaProjects/DataStructuresAndAlgorithm/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module"
     ],
-    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;,
-      &quot;repository&quot;
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
     ]
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Application.RecursionReverseCounting">
     <configuration name="Patterns" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Patterns.Patterns" />
       <module name="DataStructuresAndAlgorithm" />
@@ -101,11 +121,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RecursionReverseCounting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.RecursionReverseCounting" />
+      <module name="DataStructuresAndAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RecursionReverseCounting" />
         <item itemvalue="Application.Patterns" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.26222.65" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.26222.65" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -115,6 +157,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1779948078577</updated>
+      <workItem from="1789706949160" duration="715000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -486,6 +529,9 @@
     </task>
     <option name="localTasksCounter" value="47" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
