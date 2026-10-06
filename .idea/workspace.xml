@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a02f5f4-3efb-4d4a-ac60-d3f8679dc9d5" name="Changes" comment="">
+    <list default="true" id="4a02f5f4-3efb-4d4a-ac60-d3f8679dc9d5" name="Changes" comment="normal few changes">
+      <change afterPath="$PROJECT_DIR$/src/Recursion/FunReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/DecimalToBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/StringReunion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/MaxDepth.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,21 +30,80 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "UditSharrma"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;UditSharrma&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/UditSharrma/DataStruturesAndAlgorithm.git",
-    "accountId": "dc58c1ee-70b6-4033-af3a-326c961de433"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/UditSharrma/DataStruturesAndAlgorithm.git&quot;,
+    &quot;accountId&quot;: &quot;dc58c1ee-70b6-4033-af3a-326c961de433&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="4.0978842395062765E-142" />
+      <entry key="MS500" value="6.531178727420389E-29" />
+      <entry key="S2" value="1.4473520881785123E-7" />
+      <entry key="S5" value="0.0027777030447333436" />
+      <entry key="S10" value="0.07731341741997749" />
+      <entry key="S30" value="1.1342503694496073" />
+      <entry key="S60" value="3.0346226886980268" />
+      <entry key="M2" value="5.370275942622038" />
+      <entry key="M5" value="7.753036988981621" />
+      <entry key="M10" value="8.830113919982372" />
+      <entry key="M15" value="9.608517879025682" />
+      <entry key="M30" value="15.29501400269029" />
+      <entry key="H1" value="30.92341712960542" />
+      <entry key="H2" value="50.69842965350794" />
+      <entry key="H4" value="66.7029689682965" />
+      <entry key="D1" value="84.7511611813345" />
+      <entry key="W1" value="88.37851151549566" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000269712943" />
+      <entry key="S5" value="1.0009383410491477" />
+      <entry key="S10" value="1.0306323563875674" />
+      <entry key="S30" value="1.3143959487324777" />
+      <entry key="S60" value="1.5981569792948163" />
+      <entry key="M2" value="1.9448604124645468" />
+      <entry key="M5" value="2.4123975061897416" />
+      <entry key="M10" value="2.6724341122244137" />
+      <entry key="M15" value="2.855367450323893" />
+      <entry key="M30" value="4.149631375662021" />
+      <entry key="H1" value="7.830631728088959" />
+      <entry key="H2" value="12.599429363769001" />
+      <entry key="H4" value="16.507600215555694" />
+      <entry key="D1" value="20.94986268239774" />
+      <entry key="W1" value="21.84630048078058" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="6.810271808351585E-4" />
+      <entry key="MS500" value="0.2326124144257538" />
+      <entry key="S2" value="0.69447767971205" />
+      <entry key="S5" value="0.8673386624863314" />
+      <entry key="S10" value="1.026584167092028" />
+      <entry key="S30" value="2.3659575635105545" />
+      <entry key="S60" value="4.5414757491129185" />
+      <entry key="M2" value="7.237975606018615" />
+      <entry key="M5" value="10.121314798743384" />
+      <entry key="M10" value="11.477457052382588" />
+      <entry key="M15" value="12.44587414291656" />
+      <entry key="M30" value="19.431450584750852" />
+      <entry key="H1" value="38.74175402070642" />
+      <entry key="H2" value="63.2881133519515" />
+      <entry key="H4" value="83.20424241703186" />
+      <entry key="D1" value="105.69969649391908" />
+      <entry key="W1" value="110.22461454251311" />
+    </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -60,11 +121,13 @@
     "Application.BinarySearchRecursion.executor": "Run",
     "Application.CircularMain.executor": "Run",
     "Application.Consonants.executor": "Run",
+    "Application.DecimalToBinary.executor": "Run",
     "Application.DeleteSmallestArray.executor": "Run",
     "Application.DoublyLinkedListMain.executor": "Run",
     "Application.Excecution.executor": "Run",
     "Application.Fibonacci.executor": "Run",
     "Application.FindUnique.executor": "Run",
+    "Application.FunReverse.executor": "Run",
     "Application.LL.executor": "Run",
     "Application.LargestInTheArray.executor": "Run",
     "Application.Main.executor": "Run",
@@ -72,6 +135,7 @@
     "Application.RecursionReverseCounting.executor": "Run",
     "Application.ReverseColumn.executor": "Run",
     "Application.ReverseEachRow.executor": "Run",
+    "Application.StringReunion.executor": "Run",
     "Application.SumOfBoundryElements.executor": "Run",
     "Application.VovelsInString.executor": "Run",
     "Application.basic.executor": "Run",
@@ -107,7 +171,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RecursionReverseCounting">
+  <component name="RunManager">
     <configuration name="Patterns" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Patterns.Patterns" />
       <module name="DataStructuresAndAlgorithm" />
@@ -157,7 +221,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1779948078577</updated>
-      <workItem from="1789706949160" duration="715000" />
+      <workItem from="1789706949160" duration="2761000" />
+      <workItem from="1791304597416" duration="5186000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -527,7 +592,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782320852201</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="normal few changes">
+      <option name="closed" value="true" />
+      <created>1789707689951</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1789707689952</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -546,7 +619,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+    <MESSAGE value="normal few changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="normal few changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
