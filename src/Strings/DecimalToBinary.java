@@ -13,6 +13,7 @@ public class DecimalToBinary {
             n=n/2;
         }   while(n!=0);
 
+
         System.out.println(s);
     }
 }
